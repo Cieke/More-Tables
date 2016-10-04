@@ -13,6 +13,8 @@
 		4D7A4F411DA3950E00E5CE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7A4F401DA3950E00E5CE03 /* Assets.xcassets */; };
 		4D7A4F441DA3950E00E5CE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7A4F421DA3950E00E5CE03 /* LaunchScreen.storyboard */; };
 		4D7A4F4C1DA39D9E00E5CE03 /* MovingCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A4F4B1DA39D9E00E5CE03 /* MovingCells.swift */; };
+		4D7A4F4E1DA3ACDF00E5CE03 /* DeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A4F4D1DA3ACDF00E5CE03 /* DeleteCell.swift */; };
+		4D7A4F501DA3AF0200E5CE03 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D7A4F4F1DA3AF0200E5CE03 /* computers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D7A4F431DA3950E00E5CE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7A4F451DA3950E00E5CE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7A4F4B1DA39D9E00E5CE03 /* MovingCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingCells.swift; sourceTree = "<group>"; };
+		4D7A4F4D1DA3ACDF00E5CE03 /* DeleteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteCell.swift; sourceTree = "<group>"; };
+		4D7A4F4F1DA3AF0200E5CE03 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = computers.plist; path = "../Resources for Labs/Chapter 13/computers.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			children = (
 				4D7A4F381DA3950E00E5CE03 /* More Tables */,
 				4D7A4F371DA3950E00E5CE03 /* Products */,
+				4D7A4F4F1DA3AF0200E5CE03 /* computers.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +64,7 @@
 				4D7A4F391DA3950E00E5CE03 /* AppDelegate.swift */,
 				4D7A4F3B1DA3950E00E5CE03 /* ViewController.swift */,
 				4D7A4F3D1DA3950E00E5CE03 /* Main.storyboard */,
+				4D7A4F4D1DA3ACDF00E5CE03 /* DeleteCell.swift */,
 				4D7A4F4B1DA39D9E00E5CE03 /* MovingCells.swift */,
 				4D7A4F401DA3950E00E5CE03 /* Assets.xcassets */,
 				4D7A4F421DA3950E00E5CE03 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 				4D7A4F441DA3950E00E5CE03 /* LaunchScreen.storyboard in Resources */,
 				4D7A4F411DA3950E00E5CE03 /* Assets.xcassets in Resources */,
 				4D7A4F3F1DA3950E00E5CE03 /* Main.storyboard in Resources */,
+				4D7A4F501DA3AF0200E5CE03 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			files = (
 				4D7A4F4C1DA39D9E00E5CE03 /* MovingCells.swift in Sources */,
 				4D7A4F3C1DA3950E00E5CE03 /* ViewController.swift in Sources */,
+				4D7A4F4E1DA3ACDF00E5CE03 /* DeleteCell.swift in Sources */,
 				4D7A4F3A1DA3950E00E5CE03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
